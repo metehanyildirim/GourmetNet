@@ -1,0 +1,83 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{iclr2017_conference,times}
+\usepackage{hyperref}
+\usepackage{url}
+
+
+\title{GourmetNet}
+
+
+\author{Metehan YILDIRIM \& Mete Han KAHRAMAN \& Ilayda CAVUSOGLU  \\
+Department of Computer Engineering\\
+Hacettepe University\\
+Ankara, Turkey \\
+}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+%\iclrfinalcopy % Uncomment for camera-ready version
+
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+...
+\end{abstract}
+
+\section{A Food Recommendation System : GourmetNet}
+
+Our goal is to develop a food recommendation system for Yelp. The program will learn a person's taste according to the person's previous ranks that are given to restaurants and recommend a restaurant.\\
+
+When we look at the related works we see that the logic of it is quite easy but very effective. So we are interested in this subject.\\
+ 
+\section{Related Work}
+
+...
+
+
+\section{Methodology}
+
+There are many approaches to this but we preferred the baseline method the collaborative filtering. Collaborative filtering can be applied in two ways, a narrow one and a more general one. 
+
+
+Narrow one is a method that makes automatic predictions. It collects preferences or taste information from many users. Then predicts about a user's interests. In our case narrow one will be used.
+
+
+
+First we have to sparse the matrix of dataset. It is hard to do it so we will group our data. To do that Google word2vec will be used. After grouping data k-means clustering will be applied. 
+
+
+K-means clustering partitions N observations into k clusters. Each observation belongs to the cluster with the nearest mean. A observation is a prototype of it's own cluster. Objective function :
+$$ J = \sum^{k}_{j=1}\sum^{n}_{i=1}\underbrace{\|x_{i}^{(j)}-c_{j}\|}_{distance}$$
+$c_{j}$ : is the centre of the cluster\\
+$x_{i}^{(j)}$ : is the data point\\
+
+\section{Experimental Evaluation}
+
+We are going to use Yelp dataset. Yelp data set includes many attributes. We analyze them and choose the most appropriate ones. 
+
+The required business attributes are stars , review$\_$count, name, city, categories and business$\_$id. We shall recommend a restaurant  which belongs to the city that the user is currently located so city attribute is needed. Restaurants that do not have "categories" attribute is going to be deleted.  
+
+
+The required user attributes are average stars and user$\_$id. 
+
+
+The required review attributes are business$\_$id, user$\_$id and stars.
+
+For both users and cities average rate will be used. 
+
+
+
+
+\end{document}
