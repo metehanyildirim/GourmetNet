@@ -116,10 +116,11 @@ So we analysed the data even further and observed that most restaurant categorie
 
 // GRAPH FOR CUISINES
 
-\begin{figure}
-  \includegraphics[width=\linewidth]{tablo.png}
-\end{figure}
 
+\begin{center}
+  \includegraphics[width=\linewidth]{tablo.png}
+\end{figu
+\end{center}
 
 \section{References}
 
