@@ -114,37 +114,38 @@ potato	& 98\\
 
 So we analysed the data even further and observed that most restaurant categories had  their cuisine names. So we clustered our data on cuisines. We are thinking about clustering each cuisine clusters based on their other tags.
 
-// GRAPH FOR CUISINES
-
 
 \begin{center}
   \includegraphics[width=\linewidth]{tablo.png}
-\end{figu
 \end{center}
+
+
+
+
 
 \section{References}
 
-[1] (\url{https://papers.nips.cc/paper/5021-distributed-representations-of-words\\-and-phrases-and-their-compositionality.pdf}) 
+[1]\url{https://papers.nips.cc/paper/5021-distributed-representations-of-words\\-and-phrases-and-their-compositionality.pdf} 
 
-[2] (\url{https://msu.edu/~ashton/classes/866/papers/2010_jain_kmeans_50yrs__clustering_review.pdf}) 
+[2]\url{https://msu.edu/~ashton/classes/866/papers/2010_jain_kmeans_50yrs__clustering_review.pdf} 
 
-[3] (\url{https://msu.edu/~ashton/classes/866/papers/2010_jain_kmeans_50yrs__clustering_review.pdf}) 
+[3]\url{} 
 
 
-[4](\url{http://snap.stanford.edu/class/cs224w-2012/projects/cs224w-054-final.pdf})
+[4]\url{http://snap.stanford.edu/class/cs224w-2012/projects/cs224w-054-final.pdf}
  
 
-[5](\url{https://pdfs.semanticscholar.org/8b2b/ada22181916196116f1711d456ea212f2b3b.pdf})
+[5]\url{https://pdfs.semanticscholar.org/8b2b/ada22181916196116f1711d456ea212f2b3b.pdf}
 
 
 
-[6](\url{https://pdfs.semanticscholar.org/a7d2/5c03ec2a7dfe54c7b2e39729e906283e8e07.pdf})
+[6]\url{https://pdfs.semanticscholar.org/a7d2/5c03ec2a7dfe54c7b2e39729e906283e8e07.pdf}
 
 
-[7](\url{https://msu.edu/~ashton/classes/866/papers/2010_jain_kmeans_50yrs__clustering_review.pdf}) 
+[7]\url{https://msu.edu/~ashton/classes/866/papers/2010_jain_kmeans_50yrs__clustering_review.pdf}
 
 
-[8](\url{http://www.gelbukh.com/ijcla/2014-1/IJCLA-2014-1-Complete.pdf#page=27})
+[8]\url{http://www.gelbukh.com/ijcla/2014-1/IJCLA-2014-1-Complete.pdf#page=27}
 
 
 
