@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.21)  12 DEC 2016 20:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.21)  12 DEC 2016 20:47
 entering extended mode
 **./iclr2017_conference.tex
 (iclr2017_conference.tex
@@ -329,51 +329,51 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 128.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (47.4049pt too wide) in paragraph at lines 128--129
-\OT1/ptm/m/n/10 [1] ([]$\OT1/pcr/m/n/10 https : / / papers . nips . cc / paper 
-/ 5021-[]distributed-[]representations-[]of-[]words \
+Overfull \hbox (42.17493pt too wide) in paragraph at lines 128--129
+\OT1/ptm/m/n/10 [1][]$\OT1/pcr/m/n/10 https : / / papers . nips . cc / paper / 
+5021-[]distributed-[]representations-[]of-[]words \
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
-[]\OT1/ptm/m/n/10 [2] ([]$\OT1/pcr/m/n/10 https : / / msu . edu / []ashton / cl
-asses / 866 / papers / 2010 _ jain _ kmeans _
+[]\OT1/ptm/m/n/10 [2][]$\OT1/pcr/m/n/10 https : / / msu . edu / []ashton / clas
+ses / 866 / papers / 2010 _ jain _ kmeans _
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
-[]\OT1/ptm/m/n/10 [3] ([]$\OT1/pcr/m/n/10 https : / / msu . edu / []ashton / cl
-asses / 866 / papers / 2010 _ jain _ kmeans _
+[]\OT1/ptm/m/n/10 [3][]$\OT1/pcr/m/n/10 https : / / msu . edu / []ashton / clas
+ses / 866 / papers / 2010 _ jain _ kmeans _
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
-[]\OT1/ptm/m/n/10 [4]([]$\OT1/pcr/m/n/10 http : / / snap . stanford . edu / cla
-ss / cs224w-[]2012 / projects /
+[]\OT1/ptm/m/n/10 [4][]$\OT1/pcr/m/n/10 http : / / snap . stanford . edu / clas
+s / cs224w-[]2012 / projects /
  []
 
 
-Overfull \hbox (67.50488pt too wide) in paragraph at lines 138--139
-[]\OT1/ptm/m/n/10 [5]([]$\OT1/pcr/m/n/10 https : / / pdfs . semanticscholar . o
-rg / 8b2b / ada22181916196116f1711d456ea212f2b3b .
+Overfull \hbox (64.17493pt too wide) in paragraph at lines 138--139
+[]\OT1/ptm/m/n/10 [5][]$\OT1/pcr/m/n/10 https : / / pdfs . semanticscholar . or
+g / 8b2b / ada22181916196116f1711d456ea212f2b3b .
  []
 
 
-Overfull \hbox (67.50488pt too wide) in paragraph at lines 142--143
-[]\OT1/ptm/m/n/10 [6]([]$\OT1/pcr/m/n/10 https : / / pdfs . semanticscholar . o
-rg / a7d2 / 5c03ec2a7dfe54c7b2e39729e906283e8e07 .
+Overfull \hbox (64.17493pt too wide) in paragraph at lines 142--143
+[]\OT1/ptm/m/n/10 [6][]$\OT1/pcr/m/n/10 https : / / pdfs . semanticscholar . or
+g / a7d2 / 5c03ec2a7dfe54c7b2e39729e906283e8e07 .
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
-[]\OT1/ptm/m/n/10 [7]([]$\OT1/pcr/m/n/10 https : / / msu . edu / []ashton / cla
-sses / 866 / papers / 2010 _ jain _ kmeans _
+[]\OT1/ptm/m/n/10 [7][]$\OT1/pcr/m/n/10 https : / / msu . edu / []ashton / clas
+ses / 866 / papers / 2010 _ jain _ kmeans _
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
-[]\OT1/ptm/m/n/10 [8]([]$\OT1/pcr/m/n/10 http : / / www . gelbukh . com / ijcla
- / 2014-[]1 / IJCLA-[]2014-[]1-[]Complete . pdf #
+[]\OT1/ptm/m/n/10 [8][]$\OT1/pcr/m/n/10 http : / / www . gelbukh . com / ijcla 
+/ 2014-[]1 / IJCLA-[]2014-[]1-[]Complete . pdf #
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
@@ -403,7 +403,7 @@ sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on iclr2017_conference.pdf (3 pages, 136664 bytes).
+Output written on iclr2017_conference.pdf (3 pages, 136321 bytes).
 PDF statistics:
  104 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
