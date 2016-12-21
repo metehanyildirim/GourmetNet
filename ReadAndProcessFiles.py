@@ -43,6 +43,7 @@ for line in lines:
             line_list.append(cuis)
             line_list.append(cat)
             line_list.append(star)
+            line_list.append(rev_count)
             line_list.append(city)
             list.append(line_list)
 

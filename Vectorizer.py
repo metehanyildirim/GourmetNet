@@ -13,7 +13,7 @@ vectorized_businesses2= []
 with open('business.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
-        businesses.append([row[0],row[1], ast.literal_eval(row[2]), row[3], row[4]])
+        businesses.append([row[0],row[1], ast.literal_eval(row[2]), row[3], row[4], row[5]])
 
 
 for i, business in enumerate(businesses):
@@ -39,8 +39,8 @@ for i, business in enumerate(businesses):
             avrage_v = avrage_v + np.array(v)
     if(count!=0):
         avrage_v = avrage_v / count
-        vectorized_businesses2.append([businesses[i][0],businesses[i][1], businesses[i][3], businesses[i][4]])
-        vectorized_businesses.append([businesses[i][0],businesses[i][1], avrage_v, businesses[i][3], businesses[i][4]])
+        vectorized_businesses2.append([businesses[i][0],businesses[i][1], businesses[i][3], businesses[i][4], businesses[i][5]])
+        vectorized_businesses.append([businesses[i][0],businesses[i][1], avrage_v, businesses[i][3], businesses[i][4], businesses[i][5]])
 vectors = np.zeros((len(vectorized_businesses), 300))
 for i,row in enumerate(vectorized_businesses):
     vectors[i] = row[2]
