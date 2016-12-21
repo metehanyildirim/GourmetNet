@@ -58,7 +58,7 @@ review
 
 
 user
-[[userid, review_count ,avragestar,  Catagorilere verilen avrage starlar arrayi ]
+[[userid, review_count ,avragestar,  Catagorilere verilen avrage starlar arrayi , her catagoriye yazilan review sayisi]
 []]
 
 
