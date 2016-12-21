@@ -44,3 +44,23 @@ daha sonra bu manuel clusterlarida kendi içlerinde henüz bakmadiğimiz kategor
 
 
 
+--- düzen ---
+vectorized_business
+
+[[bussinessid _ , mutfak, bu restoronta verilen ortalama star, review_count, City]
+[]
+]
+
+review 
+[[userid, bussiness id , star]
+[]
+]
+
+
+user
+[[userid, review_count ,avragestar,  Catagorilere verilen avrage starlar arrayi ]
+[]]
+
+
+
+
