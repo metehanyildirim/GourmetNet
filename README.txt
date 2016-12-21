@@ -58,9 +58,34 @@ review
 
 
 user
-[[userid, review_count ,avragestar,  Catagorilere verilen avrage starlar arrayi , her catagoriye yazilan review sayisi]
+[[userid, review_count ,avragestar,  Catagorilere verilen avrage starlar arrayi ]
 []]
 
 
+bu makalenin küçük bir özeti -> https://pdfs.semanticscholar.org/a7d2/5c03ec2a7dfe54c7b2e39729e906283e8e07.pdf
+
+Burada öncelikle restaurant reviewlarını good ve bad ayırmak yerine direk ratingi tahmin etme çabasına girilmiş.
+İlk denediği baseline approach çok basit Baseline 4.1 sectionında görebilirsiniz. Oradaki formül ile direk bir kullanıcının
+tüm restoranlara verdiği average rating ve tüm restoranlara verilen average rating ve kullanıcının oy verdiği restoranın average
+rating'ini birleştirip direk bunu geri beslemiş ve buradan hatasını hesaplamış. Bu approach ı bir deneyebiliriz.
+
+2. approach ilginç bir yöntem. Bir üyenin bir restorana verdiği puanı tahmin etmek için önce tahmin edilmeye çalışan restorana
+puan veren tüm üyelere bakılıyor ve KNN ile en yakın üye bulunuyor ve bu yöntemle tahmin edilmeye çalışıyor. Bu da pek iyi
+bir yöntem sayılmaz. Bunun sonucu kötü çıkıyor hatta ilkinden de kötü çünkü matris çok sparse.
 
 
+
+3. approach 2. olaydaki KNN'deki sparselık sorununu yiyecekleri kategorize ederek çözüyor. Bizim yaptığımız gibi manuel
+kategorizasyon. Bu sefer bu şimdiye kadar ki en iyi sonucu veriyor.
+
+4. approach da kategoriler altında yine kategori yapıyor ama değişik bir yöntem var garip. alt kategorilerde sadece casual romantic
+ve trendy var. (Data'daki neye göre yapıyor bilmiyorum.)
+
+En son SVD denilen bir yaklaşım kullanıyor ama sonucu çok kötü denemeye değmez.
+
+Asıl önemli nokta -> Bir üyenin bir restorana verdiği rating i tahmin etmeye çalışırken KNN 'i bu üye ve bu restorana oy veren diğer üyelerden yapıyor.
+Bizim gibi direk bütün üye listesinden KNN ile en yakını bulmuyor. Biz de böyle yaparak sonuçlarımızı test edebiliriz.
+
+
+
+bu makalenin küçük bir özeti -> http://snap.stanford.edu/class/cs224w-2013/projects2013/cs224w-038-final.pdf
